@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.pagina{
+    background-color: bisque;
+    height: 2200px;
+    padding: 42px;
+    z-index: -1;
+}
+.antet{
+    z-index: 1;
+    height: 100px;
+    width: 1920px;
+    background-color: blue;
+    position: fixed;
+}
+.subsol{
+    background-color: blue;
+    padding: 42px;
+}
+.mijloc{
+    z-index: 0;
+    top: 6em;
+    height: 2188px;
+    width: 90em;
+    background-color: white;
+    position:absolute;
+    left: 15em;
+}
+.button {
+    flex: 1; 
+    margin: 10px;
+    padding: 15px 153px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  .button-line {
+    display: flex;
+  }
+  .subsol-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .subsol-info {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: white;
+  }
+  ul {
+    list-style-type: disc; 
+    margin: 20px;
+    padding: 5px;
+  }
+  
+  li {
+    margin-bottom: 10px; 
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
